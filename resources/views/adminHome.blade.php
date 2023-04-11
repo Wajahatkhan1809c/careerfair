@@ -148,7 +148,7 @@
 
  
     <!-- add company form -->
-  <form action="admin/home" method="POST" class="form-group bg-secondary p-3 w-50 mx-auto mt-4" enctype="multipart/form-data">
+  <form action="admin/home" method="post" class="form-group bg-secondary p-3 w-50 mx-auto mt-4" enctype="multipart/form-data">
    @csrf
     <h1 style="color:burlywood;">ADD COMPANY</h1>
    
@@ -169,7 +169,7 @@
 <!-- end form -->
 
 <!-- job details form -->
-  <form action="admin/home" method="POST" class="form-group bg-secondary p-3 w-50 mx-auto mt-2" enctype="multipart/form-data">
+  <form action="admin/home" method="post" class="form-group bg-secondary p-3 w-50 mx-auto mt-2" enctype="multipart/form-data">
    @csrf
     <h1 style="color:burlywood;">COMPANY PROFILE</h1>
    Company Name:
